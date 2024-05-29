@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnThemLoaiGhiChu"
+        android:icon="@drawable/ic_note_add"
+        android:title="Thêm loại ghi chú"></item>
+    <item
+        android:id="@+id/mnComplete"
+        android:icon="@drawable/ic_list_alt"
+        android:title="Hoàn thành"></item>
+    <item
+        android:id="@+id/mnGhiChuDaXoa"
+        android:icon="@drawable/ic_playlist_remove"
+        android:title="Đã xóa gần đây"></item>
+
+</menu>

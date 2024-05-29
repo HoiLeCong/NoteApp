@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnSortAZ"
+        android:title="Sort A-Z"></item>
+    <item
+        android:id="@+id/mnSortZA"
+        android:title="Sort Z-A"></item>
+    <item
+        android:id="@+id/mnSortDueDate"
+        android:title="Ghi chú gần hết hạn nhất"></item>
+    <item
+        android:id="@+id/mnSortDueDateL"
+        android:title="Ghi chú xa hạn nhất"></item>
+</menu>

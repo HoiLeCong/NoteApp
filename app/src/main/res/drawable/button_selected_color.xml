@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/border_btn" android:state_pressed="false"></item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient android:centerColor="#00FFFF" android:endColor="#1E90FF" android:startColor="#1E90FF" />
+            <corners android:radius="50dp"></corners>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView_itemghichu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardElevation="7dp">
+
+    <LinearLayout
+        android:id="@+id/linerLayout_itemghichu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txtTitleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title."
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:id="@+id/txtNoiDungLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nội dung"
+            android:maxLines="10"
+            android:textColor="@color/black"
+            android:textSize="17sp"></TextView>
+
+        <TextView
+            android:id="@+id/txtDeleteTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="DeleteTime"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="normal"></TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
